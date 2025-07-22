@@ -1,190 +1,223 @@
-# {{PROJECT_NAME}}
+# 🎮 Vue Tetris Game
 
-> **基于{{TECH_STACK}}的{{PROJECT_TYPE}}项目**  
-> **技术栈**: {{TECH_STACK_DETAIL}}  
-> **团队规模**: {{TEAM_SIZE}}
+> 基于Vue3和HTML5 Canvas的经典俄罗斯方块游戏
 
----
-
-## 📊 项目概览
-
-{{PROJECT_DESCRIPTION}}
-
-本项目基于现代化开发规范，提供标准化的项目结构、开发规范和AI协作流程。
-
-### 🎯 模板特点
-- ✨ **技术栈无关**: 支持前端、后端、全栈等多种项目配置
-- 🏗️ **架构现代化**: 遵循现代化开发架构和最佳实践
-- 📏 **规范化开发**: 建立完整的开发规范和质量标准
-- 🚀 **AI协作友好**: 深度集成Claude Code提升开发效率
-- 📚 **新手友好**: 详细的学习指南和项目管理工具
+![项目状态](https://img.shields.io/badge/状态-开发中-yellow)
+![技术栈](https://img.shields.io/badge/Vue-3.0-4FC08D)
+![构建工具](https://img.shields.io/badge/Vite-5.0-646CFF)
+![语言](https://img.shields.io/badge/TypeScript-5.0-3178C6)
 
 ---
 
-## 🔍 支持的技术栈
+## 🎯 项目简介
 
-| 技术领域 | 推荐选择 | 特点 |
-|----------|----------|------|
-| **前端框架** | Vue3 / React / Angular | 组件化、响应式、现代化 |
-| **后端框架** | Node.js / Python / Java / Go | 高性能、可扩展、云原生 |
-| **数据库** | MySQL / PostgreSQL / MongoDB | 关系型、文档型、灵活配置 |
-| **构建工具** | Vite / Webpack / Rollup | 快速构建、热重载、优化 |
-| **代码规范** | ESLint + Prettier | 统一风格、自动格式化 |
-| **测试框架** | Vitest / Jest / Cypress | 单元测试、集成测试、E2E |
+Vue Tetris Game是一个现代化的俄罗斯方块游戏，使用Vue3 Composition API和HTML5 Canvas技术构建。项目提供流畅的游戏体验，支持桌面和移动设备，包含完整的游戏功能和现代化的用户界面。
+
+### ✨ 核心特性
+
+- 🧩 **经典玩法** - 完整的俄罗斯方块游戏机制
+- 🎨 **现代架构** - Vue3 Composition API + TypeScript
+- 📱 **响应式设计** - 完美适配桌面和移动设备
+- 🎵 **音效系统** - 背景音乐和游戏音效
+- 💾 **数据持久化** - 本地存储最高分记录
+- ⚡ **高性能渲染** - HTML5 Canvas优化绘制
+- 🎮 **多种控制** - 键盘、触摸和鼠标控制
+
+---
+
+## 🛠️ 技术栈
+
+- **前端框架**: Vue 3.4+ (Composition API)
+- **构建工具**: Vite 5.0+
+- **语言**: TypeScript 5.0+
+- **状态管理**: Pinia 2.0+
+- **渲染引擎**: HTML5 Canvas
+- **样式**: CSS3 + CSS Variables
+- **代码规范**: ESLint + Prettier
 
 ---
 
 ## 🚀 快速开始
 
-### ⚡ 方法1: 智能配置器 (推荐)
+### 📋 环境要求
 
-**90%+自动化，5分钟完成项目初始化**
+- Node.js 18+ 
+- npm 9+ 或 yarn 1.22+
+- 现代浏览器 (Chrome 90+, Firefox 88+, Safari 14+)
 
-```bash
-# 1. 进入模板目录
-cd template-base
-
-# 2. 运行智能配置器
-node configs/project-configurator.js
-
-# 3. 按指引选择配置，自动创建定制化项目
-```
-
-### 🛠️ 方法2: 交互式脚本初始化
+### ⚡ 安装依赖
 
 ```bash
-# 1. 复制模板
-cp -r template-base /path/to/your-new-project
-cd /path/to/your-new-project
+# 克隆项目
+git clone <repository-url>
+cd vue-tetris-game
 
-# 2. 运行初始化脚本
-./init-project.sh
-
-# 3. 按提示完成项目配置
+# 安装依赖
+npm install
+# 或
+yarn install
 ```
 
-### 📚 详细使用指南
-查看 **[USAGE.md](./USAGE.md)** 获取完整的使用说明和最佳实践。
+### 🔧 开发模式
 
-### 环境要求
-- Node.js 18+ (智能配置器需要)
-- Git (自动初始化仓库)  
-- VS Code (推荐，工作区已配置)
+```bash
+# 启动开发服务器
+npm run dev
+# 或
+yarn dev
 
----
+# 项目将在 http://localhost:5173 运行
+```
 
-## 📚 文档导航
+### 📦 生产构建
 
-| 文档 | 说明 |
-|------|------|
-| 📋 [todo.md](./doc/todo.md) | TODO清单&项目管理指南 |
-| 📁 [structure.md](./structure.md) | 项目结构和版本记录 |
-| 🛠️ [CLAUDE.md](./CLAUDE.md) | Claude Code配置和开发规范 |
-| 📝 [CHANGELOG.md](./CHANGELOG.md) | 版本变更历史 |
+```bash
+# 构建生产版本
+npm run build
+# 或
+yarn build
 
----
-
-## 🎯 项目特色
-
-### ✅ 开发规范
-1. **Git工作流**: 遵循 Angular Commit规范 + emoji标准
-2. **代码质量**: 内置ESLint、Prettier、测试覆盖率要求
-3. **文档管理**: 自动化文档维护和版本跟踪
-4. **AI协作**: Claude Code深度集成，提升开发效率
-
-### 📊 质量标准
-- **测试覆盖率**: ≥90%
-- **代码规范**: 0错误率
-- **提交规范**: Conventional Commits + emoji
-- **文档完整性**: 同步更新，版本追踪
-
-### 🎨 架构模式
-- **单一职责**: 每个文件/模块专注一个功能
-- **组件化开发**: 可复用、可测试、可维护
-- **状态集中管理**: 统一状态管理模式
-- **API统一封装**: 标准化接口封装
+# 预览构建结果
+npm run preview
+# 或
+yarn preview
+```
 
 ---
 
-## 🛠️ 开发流程
+## 🎮 游戏说明
 
-### 📋 项目初始化
-1. 复制模板并配置Git仓库
-2. 选择适合的技术栈
-3. 配置开发环境和工具
-4. 阅读 `doc/todo.md` 学习指南
+### 🎯 游戏目标
+- 控制下降的方块填满水平行
+- 填满的行会自动消除并获得分数
+- 随着游戏进行，方块下降速度逐渐增加
+- 当方块堆积到顶部时游戏结束
 
-### 🚀 开发实施
-1. 遵循 `CLAUDE.md` 中的开发规范
-2. 使用 `/commit` 命令进行标准化提交
-3. 定期更新 `todo.md` 跟踪进度
-4. 维护测试覆盖率和代码质量
+### ⌨️ 控制方式
 
-### 📊 质量保证
-1. 执行自动化测试
-2. 代码审查和重构
-3. 性能监控和优化
-4. 文档更新和维护
+#### 键盘控制
+- `← →` 左右移动方块
+- `↓` 加速下降
+- `↑` / `Space` 旋转方块
+- `P` 暂停/继续游戏
+- `R` 重新开始游戏
 
----
-
-## 🎓 学习资源
-
-### 📚 新手指南
-- **基础技能**: Git、VS Code、Claude Code协作
-- **前端技术**: HTML/CSS/JavaScript + 现代框架
-- **后端技术**: 服务器开发、数据库、API设计
-- **全栈技能**: 前后端集成、部署运维
-
-### 🔗 推荐资源
-- **官方文档**: 各技术栈官方文档和最佳实践
-- **社区教程**: GitHub、掘金、Stack Overflow
-- **实战项目**: 开源项目学习和贡献
-- **AI协作**: Claude Code使用技巧和协作模式
+#### 触摸控制
+- 左右滑动：移动方块
+- 向下滑动：加速下降
+- 点击：旋转方块
 
 ---
 
-## 📝 开发规范
+## 📁 项目结构
 
-### Git工作流
-1. 遵循 [Angular Commit规范](./project-rules-cn/commit.mdc)
-2. 使用 `/commit` 或 `/push` 命令进行提交
-3. 提交格式：`<emoji> <type>(scope): <description> #issue-number`
-4. 保持提交原子化和描述清晰
-5. 推荐关联Issue编号便于项目管理
+```
+vue-tetris-game/
+├── src/
+│   ├── components/          # Vue组件
+│   │   ├── GameBoard.vue   # 游戏画布
+│   │   ├── GameControls.vue # 游戏控制
+│   │   ├── ScorePanel.vue  # 分数面板
+│   │   └── NextBlock.vue   # 下一个方块预览
+│   ├── composables/        # 组合式API
+│   │   ├── useGame.ts      # 游戏核心逻辑
+│   │   ├── useKeyboard.ts  # 键盘控制
+│   │   └── useAudio.ts     # 音效管理
+│   ├── stores/             # Pinia状态管理
+│   │   ├── game.ts         # 游戏状态
+│   │   └── settings.ts     # 设置状态
+│   ├── utils/              # 工具函数
+│   │   ├── gameLogic.ts    # 游戏逻辑算法
+│   │   ├── canvas.ts       # Canvas绘制工具
+│   │   └── constants.ts    # 游戏常量
+│   └── assets/             # 静态资源
+       ├── audio/           # 音频文件
+       ├── images/          # 图片资源
+       └── styles/          # 样式文件
+```
+
+---
+
+## 📚 开发文档
+
+- 📋 [开发任务列表](./doc/todo.md) - 详细的开发计划和进度
+- 🏗️ [项目结构说明](./structure.md) - 完整的架构设计文档
+- 📖 [变更日志](./CHANGELOG.md) - 版本更新记录
+- 🎮 [游戏设计文档](./doc/game-design.md) - 游戏机制和算法说明
+
+---
+
+## 🔧 开发指南
+
+### VS Code推荐插件
+- Vue Language Features (Volar)
+- TypeScript Vue Plugin (Volar)
+- ESLint
+- Prettier
+- Auto Rename Tag
 
 ### 代码规范
-1. 使用对应技术栈的官方代码规范
-2. 配置ESLint + Prettier自动格式化
-3. 维护测试覆盖率≥90%
-4. 提交前执行代码检查
+项目使用ESLint和Prettier进行代码格式化和质量检查：
 
-### 文档维护
-遵循自动化文档维护机制（详细规范参考 `CLAUDE.md`）
+```bash
+# 代码检查
+npm run lint
 
----
+# 自动修复
+npm run lint:fix
 
-## 🚀 项目状态
-
-当前为通用开发模板v1.0，支持多种技术栈配置，具备完整的开发规范和AI协作能力。
-
-### 🎯 适用场景
-- **企业级项目**: 需要严格开发规范的商业项目
-- **开源项目**: 需要社区贡献和协作的开源项目
-- **学习项目**: 新手学习现代化开发流程
-- **快速原型**: 需要快速启动的MVP项目
+# 格式化代码
+npm run format
+```
 
 ---
 
-## 🔗 相关资源
+## 📈 路线图
 
-- 📖 **开发规范**: [project-rules-cn/](./project-rules-cn/)
-- 🛠️ **Claude Code**: [claude.ai/code](https://claude.ai/code)
-- 📚 **Agent Rules**: [steipete/agent-rules](https://github.com/steipete/agent-rules)
-- 🐛 **问题反馈**: 项目Issues页面
+### 🟡 v1.0 基础版本
+- [x] 项目架构设计
+- [ ] 基础游戏逻辑
+- [ ] 游戏界面实现
+- [ ] 键盘控制
+
+### 🔵 v1.1 功能增强
+- [ ] 音效系统
+- [ ] 移动端适配
+- [ ] 数据持久化
+- [ ] 关卡系统
+
+### 🟢 v1.2 优化版本
+- [ ] 性能优化
+- [ ] 代码分割
+- [ ] PWA支持
+- [ ] 多语言支持
 
 ---
 
-**💪 核心优势**: 标准化模板 + AI辅助开发，快速启动任何类型的现代化项目！
+## 🤝 贡献指南
 
-**🎯 使用建议**: 基于具体需求定制配置，保持模板通用性和扩展性。
+欢迎提交Issue和Pull Request！请确保：
+
+1. 遵循现有的代码风格
+2. 添加适当的测试用例
+3. 更新相关文档
+4. 提交前运行代码检查
+
+---
+
+## 📄 许可证
+
+MIT License - 详见 [LICENSE](./LICENSE) 文件
+
+---
+
+## 📞 联系方式
+
+如有问题或建议，请通过以下方式联系：
+
+- 📧 提交 [Issue](../../issues)
+- 💬 发起 [Discussion](../../discussions)
+
+---
+
+**🎮 Happy Gaming!**
