@@ -48,10 +48,10 @@ Create well-formatted commits using conventional commit message format with desc
 ```
 
 ### Examples:
-- `✨ feat(auth): add user authentication system #123`
-- `🐛 fix: resolve memory leak in data processing #456`
-- `📝 docs: update API documentation #789`
-- `♻️ refactor(utils): optimize date formatting functions #101`
+- `✨ feat(auth): 新增用户认证系统 #123`
+- `🐛 fix: 修复数据处理中的内存泄漏 #456`
+- `📝 docs: 更新API接口文档 #789`
+- `♻️ refactor(utils): 优化日期格式化函数 #101`
 
 ## Best Practices:
 - Keep commits atomic and focused

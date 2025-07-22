@@ -28,11 +28,11 @@ Execute complete Git workflow: auto-stage, commit, and push all changes to remot
 ```
 
 ### Format Examples:
-- `✨ feat(auth): add user registration system #301`
-- `🐛 fix(api): resolve data validation error #501`
-- `📝 docs(readme): update installation guide #101`
-- `🎨 style(ui): improve button hover effects #201`
-- `🔧 chore(deps): upgrade webpack to v5 #401`
+- `✨ feat(auth): 新增用户注册系统 #301`
+- `🐛 fix(api): 修复数据验证错误 #501`
+- `📝 docs(readme): 更新安装指南文档 #101`
+- `🎨 style(ui): 优化按钮悬浮效果 #201`
+- `🔧 chore(deps): 升级webpack至v5版本 #401`
 
 ## Commit Types:
 - ✨ feat: New features

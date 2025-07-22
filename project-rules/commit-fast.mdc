@@ -23,11 +23,11 @@ Follows conventional commit format with appropriate emojis, creating descriptive
 - ✅ test: Adding or fixing tests
 
 ## Commit Message Examples:
-- `📝 docs: fix typo in README #101`
-- `🎨 style: format code with prettier #401`
-- `🐛 fix: resolve minor UI alignment issue #501`
-- `🔧 chore: update dev dependencies #401`
-- `✅ test: add unit test for utils #601`
+- `📝 docs: 修复README文件中的拼写错误 #101`
+- `🎨 style: 使用prettier格式化代码 #401`
+- `🐛 fix: 解决UI界面对齐问题 #501`
+- `🔧 chore: 更新开发依赖包版本 #401`
+- `✅ test: 为工具函数添加单元测试 #601`
 
 ## Use Cases:
 - 📄 **Documentation Updates**: Minor documentation improvements and fixes
